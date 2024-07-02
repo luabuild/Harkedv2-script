@@ -371,7 +371,7 @@ function getPlayer(list,speaker)
 end
 function Destroy(instance)
 	spawn(function()
-		game.ReplicatedStorage.DeleteRequest:FireServer(instance, nil)
+		game.ReplicatedStorage.EXPLOJAN:FireServer(instance, nil)
 	end)
 end
 
